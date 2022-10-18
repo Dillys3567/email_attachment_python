@@ -8,7 +8,7 @@ import schedule
 #function to pull data from local db and send as a csv via email
 def pull_data_send_email():
     #connect to database
-    db=mysql.connector.connect(user='root',database='college',password='mysqldillys_3')
+    db=mysql.connector.connect(user='root',database='databasename',password='databasepassword')
     cursor=db.cursor()
     query='select name,email from college.lecturers'
     cursor.execute(query)
