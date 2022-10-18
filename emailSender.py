@@ -27,8 +27,8 @@ def pull_data_send_email():
 
 
     #define email components
-    email_Sender='dillysannan@gmail.com'
-    sender_password='pihtpasvjythawfn'
+    email_Sender='d'
+    sender_password='p'
     email_Recipients=['annandillys@gmail.com']
     body='These are the customers holding assets beyond 30 days. Do something about it.Now now'
     subject='Stubborn Customers'
